@@ -9,12 +9,9 @@
             </svg>
             <br>
             <form>
-                    <input type="file" name="file" id="file" class="inputfile" />
-                    <label for="file"><strong>Choose a file</strong></label>
-                    <button type="submit" class="btn btn-secondary">Envoyer</button>
-                </form>
-                
-
+                <input type="file" name="file" id="file" class="inputfile" (change)="handleFileInput($event.target.files)"/>
+                <label for="file"><strong>Choisir un fichier</strong></label>
+            </form>
         </div>
     </div>
 </div>
