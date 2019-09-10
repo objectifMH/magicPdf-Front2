@@ -7,12 +7,20 @@ import { Action } from '../action';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  title = "C'est magique !"
+  subtitle = "Manipuler des pdf n'a jamais été aussi simple."
 
   actions = [
     new Action('Split', 'blablablabla', '/split'),
     new Action('Merge', 'blablablabla', '/merge'),
-    new Action('Add image', 'blablablabla', 'add-image'),
-    new Action('Create', 'blablablabla', 'create')
+    new Action('Split', 'blablablabla', '/split'),
+    new Action('Merge', 'blablablabla', '/merge'),
+    new Action('Split', 'blablablabla', '/split'),
+    new Action('Merge', 'blablablabla', '/merge'),
+    new Action('Split', 'blablablabla', '/split'),
+    new Action('Merge', 'blablablabla', '/merge'),
+    new Action('Split', 'blablablabla', '/split'),
+    new Action('Merge', 'blablablabla', '/merge'),
   ]
 
   constructor() { }

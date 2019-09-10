@@ -1,0 +1,21 @@
+.action {
+    width: 150px; 
+    height: 150px; 
+    margin: 15px;  /* Magic! */
+    background: #1B8DCE;
+    padding: 10px;
+    box-shadow: 0 5px 30px #8DC6E6;
+    cursor: pointer; /* "hand" cursor */
+}
+
+.action:hover{
+	transform: translateY(-5px);
+}
+
+.titre {
+    text-align: center;
+    line-height: 120px;
+    font-size: 20px;
+    display: flexbox;
+    color: #051923;
+}

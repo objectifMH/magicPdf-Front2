@@ -1,4 +1,7 @@
-.centre{
-    margin: 0 auto;
-    width: fit-content;
+.action-box {
+    display: flex !important; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
 }
+

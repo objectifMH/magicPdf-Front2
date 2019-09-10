@@ -1,16 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-upload',
-  templateUrl: './upload.component.html',
-  styleUrls: ['./upload.component.css']
+  selector: 'app-split',
+  templateUrl: './split.component.html',
+  styleUrls: ['./split.component.css']
 })
-export class UploadComponent implements OnInit {
-
+export class SplitComponent implements OnInit {
+  title = "Split"
+  subtitle = "Ceci est un sous titre de split"
   fileToUpload: File = null; 
 
   constructor() { }
-  
+
   ngOnInit() {
   }
 

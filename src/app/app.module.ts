@@ -8,7 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { CardComponent } from './card/card.component';
-import { UploadComponent } from './upload/upload.component';
+import { SplitComponent } from './split/split.component';
+import { MergeComponent } from './merge/merge.component';
  
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UploadComponent } from './upload/upload.component';
     NavbarComponent,
     HeaderComponent,
     CardComponent,
-    UploadComponent
+    SplitComponent,
+    MergeComponent
   ],
   imports: [
     BrowserModule,
