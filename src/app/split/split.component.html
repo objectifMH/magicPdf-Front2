@@ -10,10 +10,12 @@
                 </path>
             </svg>
             <br>
-            <form action="ddddddddddddddd" method="post" enctype="multipart/form-data">
-                <input type="file" name="file" id="file" class="inputfile" (change)="handleFileInput($event.target.files)"/>
-                <label for="file"><strong>Choisir un fichier</strong></label>
-            </form>
+            <div class="form-group">
+                <label for="file">Choose File</label>
+                <input type="file"
+                       id="file"
+                       (change)="handleFileInput($event.target.files)">
+            </div>
         </div>
     </div>
 </div>
